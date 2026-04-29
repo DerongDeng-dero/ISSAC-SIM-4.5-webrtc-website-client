@@ -38,7 +38,7 @@ isaac-sim.streaming.lan.bat
 
 ### 2. 需要网页和 Isaac Sim 之间的结构化消息
 
-如果你要使用这个客户端里的 `Custom Message` 面板，服务端还需要启用
+如果要使用这个客户端里的 `Custom Message` 面板，服务端还需要启用
 `isaacsim.webrtc.bridge` 扩展。
 
 当前工作目录里的启动方式是：
@@ -82,7 +82,7 @@ isaac-sim.webrtc.bridge.bat
 
 这个仓库没有重写 Isaac Sim 原生 signaling 协议，也不是“脱离 NVIDIA 官方浏览器 SDK 的纯手写 thin client”。
 
-如果你的目标是完全不用 `@nvidia/omniverse-webrtc-streaming-library`，那是另一条实现路线，需要自己维护：
+如果目标是完全不用 `@nvidia/omniverse-webrtc-streaming-library`，那是另一条实现路线，需要自己维护：
 
 - WebSocket 握手路径
 - SDP offer/answer
