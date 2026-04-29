@@ -18,7 +18,9 @@
 - `docs/server-setup.md`: Isaac Sim 4.5 服务端接入说明
 - `docs/diagnostics.md`: 浏览器侧 WebRTC 诊断说明
 - `docs/bridge-messages.md`: `isaacsim.webrtc.bridge` 消息桥说明
+- `docs/windows-scripts.md`: 随仓库附带的 Windows 启动脚本说明
 - `install.bat` / `build.bat` / `dev.bat` / `preview.bat`: Windows 启动脚本
+- `isaac-sim.*.bat`: 和 Isaac Sim 服务端联动的快捷脚本
 
 ## 环境要求
 
@@ -57,6 +59,24 @@
 
 默认通过 `http://127.0.0.1:3000` 或 `http://<your-host-ip>:3000` 访问。
 
+## 常用 Windows 快捷脚本
+
+仓库根目录现在额外带上了这几类脚本：
+
+- `isaac-sim.streaming.bat`
+- `isaac-sim.streaming.lan.bat`
+- `isaac-sim.streaming.stop.bat`
+- `isaac-sim.webrtc.bridge.bat`
+- `isaac-sim.webrtc.web.bat`
+
+如果仓库不是直接放在 `Isaac Sim/tools/webrtc-web-client` 下，先设置：
+
+```bat
+set ISAAC_SIM_ROOT=D:\isaac-sim
+```
+
+再使用这些脚本。
+
 ## 默认连接参数
 
 默认配置定义在 `src/defaultConfig.ts`：
@@ -90,3 +110,4 @@
 - [服务端接入](docs/server-setup.md)
 - [诊断说明](docs/diagnostics.md)
 - [桥接消息](docs/bridge-messages.md)
+- [Windows 脚本](docs/windows-scripts.md)

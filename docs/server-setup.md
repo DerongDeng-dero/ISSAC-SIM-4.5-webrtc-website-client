@@ -13,7 +13,7 @@
 
 启用 Isaac Sim 4.5 原生 WebRTC streaming 即可。
 
-当前工作目录里实际使用过的稳定局域网包装方式是：
+当前客户端仓库根目录已经附带了同名启动脚本，推荐直接用：
 
 ```bat
 isaac-sim.streaming.lan.bat
@@ -32,8 +32,15 @@ isaac-sim.streaming.lan.bat
 如果自动探测出的 IP 不对，可以在启动前手工覆盖：
 
 ```bat
+set ISAAC_SIM_ROOT=D:\isaac-sim
 set ISAACSIM_PUBLIC_IP=192.168.1.20
 isaac-sim.streaming.lan.bat
+```
+
+如果这个客户端仓库没有放在 `Isaac Sim/tools/webrtc-web-client` 下，启动前先设置：
+
+```bat
+set ISAAC_SIM_ROOT=D:\isaac-sim
 ```
 
 ### 2. 需要网页和 Isaac Sim 之间的结构化消息
