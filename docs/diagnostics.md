@@ -64,4 +64,4 @@
 - `src/webrtcDiagnostics.ts`
 - `src/App.tsx`
 
-如果你后续要加更多统计项，优先扩展 `logSelectedCandidatePair()`。
+如果后续要加更多统计项，优先扩展 `logSelectedCandidatePair()`。
