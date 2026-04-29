@@ -9,7 +9,7 @@
 这个仓库的定位不是“纯手写 WebRTC 协议客户端”，而是：
 
 - 保留 Isaac Sim 4.5 原生 streaming 服务端
-- 用你自己的网页外壳承载视频流
+- 用自己的网页外壳承载视频流
 - 提供连接参数面板、事件日志和桥接消息调试入口
 
 ## 目录
@@ -82,8 +82,8 @@
 ## 说明
 
 - 该项目主要面向局域网接入，公网稳定支持不在 Isaac Sim 4.5 的推荐范围内。
-- 如果你只需要视频流，服务端只开启 native WebRTC 即可。
-- 如果你要使用页面里的 `Custom Message`，服务端还需要启用 `isaacsim.webrtc.bridge` 扩展。
+- 如果只需要视频流，服务端只开启 native WebRTC 即可。
+- 如果要使用页面里的 `Custom Message`，服务端还需要启用 `isaacsim.webrtc.bridge` 扩展。
 
 具体接入方式见：
 
