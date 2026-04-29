@@ -19,6 +19,9 @@
 - `docs/diagnostics.md`: 浏览器侧 WebRTC 诊断说明
 - `docs/bridge-messages.md`: `isaacsim.webrtc.bridge` 消息桥说明
 - `docs/windows-scripts.md`: 随仓库附带的 Windows 启动脚本说明
+- `docs/ISAAC_SIM_45_NATIVE_WEBRTC_LAN_GUIDE.md`: 原生 WebRTC 局域网接入总指南
+- `docs/ISAAC_SIM_45_OFFICIAL_BROWSER_SDK_BEGINNER_GUIDE.md`: 官方浏览器 SDK 路线说明
+- `docs/ISAAC_SIM_45_LAN_STABILITY_FIX.md`: 局域网稳定性修复说明
 - `install.bat` / `build.bat` / `dev.bat` / `preview.bat`: Windows 启动脚本
 - `isaac-sim.*.bat`: 和 Isaac Sim 服务端联动的快捷脚本
 
@@ -88,7 +91,7 @@ set ISAAC_SIM_ROOT=D:\isaac-sim
 - `height`: `1080`
 - `fps`: `60`
 
-如果你的 Isaac Sim 服务端使用了不同端口，直接在页面里改，或者修改 `src/defaultConfig.ts`。
+如果 Isaac Sim 服务端使用了不同端口，直接在页面里改，或者修改 `src/defaultConfig.ts`。
 
 ## 当前功能
 
@@ -111,3 +114,6 @@ set ISAAC_SIM_ROOT=D:\isaac-sim
 - [诊断说明](docs/diagnostics.md)
 - [桥接消息](docs/bridge-messages.md)
 - [Windows 脚本](docs/windows-scripts.md)
+- [Native WebRTC LAN Guide](docs/ISAAC_SIM_45_NATIVE_WEBRTC_LAN_GUIDE.md)
+- [Official Browser SDK Guide](docs/ISAAC_SIM_45_OFFICIAL_BROWSER_SDK_BEGINNER_GUIDE.md)
+- [LAN Stability Fix Guide](docs/ISAAC_SIM_45_LAN_STABILITY_FIX.md)
